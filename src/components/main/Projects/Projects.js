@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header/Header";
+import Header from "../Heading/Header";
 import Card from "./Card";
 import { projects } from "../../../data";
 import "./Project.scss";

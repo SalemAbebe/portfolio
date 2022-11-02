@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.scss";
 import Icons from "./Icons.js";
-import Header from "../Header/Header.js";
+import Header from "../Heading/Header.js";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
