@@ -1,0 +1,19 @@
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 5em;
+
+  .card-grid {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: 700;
+    border: solid 1px #081;
+    @media (max-width: 960px) {
+      gap: 2em;
+      justify-content: space-evenly;
+    }
+  }
+}

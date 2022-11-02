@@ -1,0 +1,16 @@
+.social-media {
+  .social-media__icons {
+    width: 10em;
+    // margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 30px;
+    }
+  }
+}
