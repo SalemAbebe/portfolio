@@ -10,7 +10,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-weight: 700;
-    border: solid 1px #081;
+    // border: solid 1px #081;
+
     @media (max-width: 960px) {
       gap: 2em;
       justify-content: space-evenly;
