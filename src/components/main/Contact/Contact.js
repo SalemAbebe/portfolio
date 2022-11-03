@@ -49,15 +49,21 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <div className="full-name">
                 <label htmlFor="First-name"> Name</label>
-                <input type="text" name="name" />
+                <input type="text" name="name" required />
               </div>
               <div className="email">
                 <label htmlFor="email-address">Email </label>
-                <input type="email" name="email" />
+                <input type="email" name="email" required />
               </div>
               <div className="message">
                 <label htmlFor="message">Message</label>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
               </div>
               <button>Send</button>
             </form>
