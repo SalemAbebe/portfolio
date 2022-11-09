@@ -28,7 +28,7 @@ const Contact = () => {
   };
   return (
     // <div>
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="contact">
       <Header header="Hire Me!" />
 
       <div className="icon-contact">

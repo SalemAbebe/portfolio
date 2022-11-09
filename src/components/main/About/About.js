@@ -5,7 +5,7 @@ import photo from "../../../assets/images/foto.png";
 import resume from "../../../assets/images/resume-ea.pdf";
 const About = () => {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="about">
       <Header header="About" />
       <div className="about-me">
         {" "}
