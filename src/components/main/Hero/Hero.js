@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="hero-sub-heading">Web Developer</p>
         <div className="social-media__icons">
           <a
-            href="https://www.linkedin.com/in/eyerusalem-abebe-8858a495/"
+            href="https://www.linkedin.com/in/eyerusalem-abebe-/"
             target="_blank"
             rel="noopener noreferrer"
           >
